@@ -1,1 +1,178 @@
-<mxfile host="app.diagrams.net" modified="2020-07-12T06:45:23.253Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36" etag="_Mo3FoWfQqZqIDSI1S_f" version="13.4.1" type="github"><diagram id="cs3FqZIEFPSHvNL24JPY" name="Page-1">3ZvbUuM4EIafJpep8imZcEkSsrDLDBSBpWpvKGErjnZkyyvLJJmn35YthyRtdpipwbb2Aspun+KvW9LfLXngz5Ltb5Jk688ionzgOdF24M8HnncWjOG/Nuwqw9gNKkMsWVSZ3FfDkn2jxugYa8Eimh+dqITgimXHxlCkKQ3VkY1IKTbHp60EP35qRmKKDMuQcGx9ZJFaV9bJyHm1X1IWr+snu445kpD6ZGPI1yQSmwOTfzHwZ1IIVW0l2xnlml3Npbpu8cbR/Q+TNFXvueDJG+VPV/fkYTxO/xr+vv3ydOUMzV1eCC/MCz88s38KpkSRg/2apHGhCVVvoHY1FimKNKL6zu7An27WTNFlRkJ9dANxALa1Srg5vGKczwQXEvZTkcJJU/NYKhXdvvk+7p4SRBcVCVVyB6eYCwLD1QSWOzb7m1c3uTX79YGLahsxkRHv7/wKDzYMvx9g6SGWencmkqRIWUgUE6l+bBrpGF4DU+ch1//F6r9IAyB1jJNwFqewHQIoCkynGiM8gJ+bAwmLIn35VNKcfSPP5a0c2M8ES1X52qPpYDTX9yqUyKtG5/4at/gnbvGxW7xRm27xkVvKTmo4l+yFao/MgRJwsyDEz7oO8QCxvCRpPrzRGEuqEI/957jn0xnHEeJ4TXZUUt01nMtQMwpVIXvZ7/pe3zreMaJ5kSqmdjbQ28dmZ/Q+IXp/lpuec/P8t5ZUNlD81DXFM0RxSeULC61owr7TNb5a7h+P0gW3A1+DxmkZH9bxt0RC03XgwJhrAfkMI/M41lu3hVIsjfcqdC4SwvYjeJlgPQr5FZF/W4lyulJ906EnY36TdDprcJH/YS7C6QGoKecqF5wcuSMy7rA9D3BHxzKhqZH4rTYSnAmMtN46iPyLbQas8lKHlU1iKVZqQxqEmO3u2BdYvtcgPs4dOJkYG3dcs5VuCbNdyPcJMjnsqd5QJrY7xW+SMe06BWcm53EsaUyUFUNx0L2SwdnIgoRKSCvSkaB7KYPzkTuaQcOzBmHn+bA7QQiNGvSwGrwvRce0YDyqVMiUi/Brftjtvq9eZpc8PPVagz70xq3qQ5xBGqf52Gl3ZFX2KZXH7gVIlKj0DM10Bc65SvPyJ9vto7HzfR85bfqojpkDH12Brkh1aX94R4Fl6Q9tkyvSz9z/FGpj+a4p8j9u3gQnr1qcOssiy0r998MdTj/V3ujshHzTWOu2Sh7npEsW0eHFagXyeriQVONfFGlYTV5ZEM1NeX670YyzzHPIKKUmmNuAsHF2pF2EWELPRBrSTBVEXww7ShTSDpqjzmliQb1UJI0I1y8NNDmB+LQD5qRzmFhaz7jIy6m6SjDfgAIj1jR2v6kM1C5RrHvtJto0odcq0VpWHOopvX9H95XmWlE5t0SBUtJkHSUGdQnalEP/Z3qrqbrmtVqB9rHSXSqIbRr3srJxGtqNxbV2QxsL1plIyuqQFclWY3mtXYJYnn4Rusqw4LtH2lg06CPHzpNWH89emHJNgMs1ppGz8GeS2T5WZibvmF1ttTLj43kLPb/kfCYAA/6qYa+e5tMFmlg2rRCybYybvGO5pTtptWHg5G1qOpAqc9OEe9jFnIZ093UxHydumh9Li2pxdhXFpK+lGQS089KM35C81QEJPUVmA8XuqzN+w1K3NanWrv4BuURD5tBHjp3XZeofdBiNRa7g7qAbFmXxm5WTOXP6QrnIEv2mnnNPSdLLRBgRfm+xJvgwwjjdgva+EjJhuRVjUOPCwnaDFCdc5zAEhULKIjNftJRL163A2fmQHuDsa0nhhcrVNc4j6WUZAGHsfCAPcPJ1k5VrEy6FbtlOj9den9IMOh/QA5w73RbPnOXrQb+/AEQoP3BMh93XTzXLYwffu/oX/wI=</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-07-12T09:25:46.395Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36" etag="vcEE2w3PnjcFDOIzdt2t" version="13.4.1" type="github">
+  <diagram id="cs3FqZIEFPSHvNL24JPY" name="Page-1">
+    <mxGraphModel dx="946" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_25s_ITaU66nZ-JxN_I0-1" value="Ubiquitous Language" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="40" y="100" width="360" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_25s_ITaU66nZ-JxN_I0-2" value="2 Communication and the Use of Language" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="32" y="70" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_25s_ITaU66nZ-JxN_I0-3" value="Model-Driven Design" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="40" y="130" width="360" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_25s_ITaU66nZ-JxN_I0-4" value="Hans-On Modeler" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="40" y="160" width="360" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_25s_ITaU66nZ-JxN_I0-5" value="Layered Architecture" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="40" y="290" width="360" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_25s_ITaU66nZ-JxN_I0-6" value="Entity" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="40" y="350" width="360" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_25s_ITaU66nZ-JxN_I0-7" value="Value Object" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="40" y="380" width="360" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_25s_ITaU66nZ-JxN_I0-9" value="Service" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="40" y="410" width="360" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_25s_ITaU66nZ-JxN_I0-10" value="Module" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="40" y="440" width="360" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_25s_ITaU66nZ-JxN_I0-11" value="Part 1&lt;br&gt;Putting the Domain Model toWork" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="30" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_25s_ITaU66nZ-JxN_I0-12" value="4 Isolating the domain" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="36" y="260" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_25s_ITaU66nZ-JxN_I0-13" value="5 A Model Expressed in Software" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="36" y="320" width="190" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_25s_ITaU66nZ-JxN_I0-14" value="6 A Life Cycle of a Domain Object" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="37" y="470" width="190" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_25s_ITaU66nZ-JxN_I0-15" value="Aggregate" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="40" y="500" width="360" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_25s_ITaU66nZ-JxN_I0-16" value="Factory" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="40" y="530" width="360" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_25s_ITaU66nZ-JxN_I0-17" value="Repository" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="40" y="560" width="360" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_25s_ITaU66nZ-JxN_I0-18" value="Part 2&lt;br&gt;The Building Blocks of a Model-Driven Design" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="220" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_25s_ITaU66nZ-JxN_I0-19" value="Part 3&lt;br&gt;Rafactoring Toward Deeper Insight" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="610" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_25s_ITaU66nZ-JxN_I0-20" value="Intention-Realing Interface" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="40" y="680" width="360" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_25s_ITaU66nZ-JxN_I0-21" value="10 Supple Design" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="33" y="650" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_25s_ITaU66nZ-JxN_I0-22" value="Side-Effect-Free Function" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="40" y="710" width="360" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_25s_ITaU66nZ-JxN_I0-23" value="Assertions" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="40" y="740" width="360" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_25s_ITaU66nZ-JxN_I0-26" value="Conceptual Contours" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="40" y="770" width="360" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_25s_ITaU66nZ-JxN_I0-27" value="Standalone Classes" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="40" y="800" width="360" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_25s_ITaU66nZ-JxN_I0-28" value="Closure of Operations" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="40" y="830" width="360" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_25s_ITaU66nZ-JxN_I0-29" value="Closure of Operations" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="40" y="860" width="360" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_25s_ITaU66nZ-JxN_I0-30" value="12 Relating Design Patterns to the Model" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="34" y="890" width="230" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_25s_ITaU66nZ-JxN_I0-31" value="Strategy" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="40" y="920" width="360" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_25s_ITaU66nZ-JxN_I0-32" value="Composite" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="40" y="950" width="360" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_25s_ITaU66nZ-JxN_I0-33" value="Not FlyWeight" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="40" y="980" width="360" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_25s_ITaU66nZ-JxN_I0-34" value="Part 4&lt;br&gt;Strategic Design" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="440" y="30" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_25s_ITaU66nZ-JxN_I0-35" value="14 Maintaining Model Integrity" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="432" y="70" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_25s_ITaU66nZ-JxN_I0-36" value="Bounded Context" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="440" y="100" width="360" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_25s_ITaU66nZ-JxN_I0-37" value="Continuous Integration" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="440" y="130" width="360" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_25s_ITaU66nZ-JxN_I0-38" value="Context Map" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="440" y="160" width="360" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_25s_ITaU66nZ-JxN_I0-39" value="Shared Kernel" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="440" y="190" width="360" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_25s_ITaU66nZ-JxN_I0-40" value="Customer/Supplier Development Teams" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="440" y="220" width="360" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_25s_ITaU66nZ-JxN_I0-41" value="Conformist" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="440" y="260" width="360" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_25s_ITaU66nZ-JxN_I0-42" value="Anticorruption Layer" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="440" y="290" width="360" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_25s_ITaU66nZ-JxN_I0-43" value="Separate Way" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="440" y="320" width="360" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_25s_ITaU66nZ-JxN_I0-44" value="Open Host Service" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="440" y="350" width="360" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_25s_ITaU66nZ-JxN_I0-45" value="Publish Language" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="440" y="380" width="360" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="2IEhXaFTapYusUPB-sK3-1" value="Core Domain" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="440" y="450" width="360" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="2IEhXaFTapYusUPB-sK3-3" value="15 Distillation" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="432" y="420" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="2IEhXaFTapYusUPB-sK3-6" value="Generic SubDomain" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="440" y="480" width="360" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="2IEhXaFTapYusUPB-sK3-7" value="Domain Vision Statement" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="440" y="510" width="360" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="2IEhXaFTapYusUPB-sK3-8" value="HighLighted Core" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="440" y="540" width="360" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="2IEhXaFTapYusUPB-sK3-9" value="Cohisive Mechanism" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="440" y="570" width="360" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="2IEhXaFTapYusUPB-sK3-10" value="Segregated Core" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="440" y="600" width="360" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="2IEhXaFTapYusUPB-sK3-11" value="Abstract Core" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="440" y="630" width="360" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="2IEhXaFTapYusUPB-sK3-12" value="16 Large-Scale Structure" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="432" y="660" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="2IEhXaFTapYusUPB-sK3-13" value="Envolving Order" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="440" y="690" width="360" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="2IEhXaFTapYusUPB-sK3-14" value="System Metaplor" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="440" y="720" width="360" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="2IEhXaFTapYusUPB-sK3-15" value="Resposibility Layer" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="440" y="750" width="360" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="2IEhXaFTapYusUPB-sK3-16" value="Knowedge Level" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="440" y="780" width="360" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="2IEhXaFTapYusUPB-sK3-17" value="Pluggable Component Framework" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="440" y="810" width="360" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
