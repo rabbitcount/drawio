@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-07-13T11:39:59.780Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36" etag="f-nUEhvUwF9ro-X50HdD" version="13.4.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-07-13T11:40:11.955Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36" etag="dz2frSb099l1FYHR1xTQ" version="13.4.1" type="github">
   <diagram id="cs3FqZIEFPSHvNL24JPY" name="Page-1">
     <mxGraphModel dx="946" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -212,7 +212,7 @@
             <mxPoint x="2" y="2" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2IEhXaFTapYusUPB-sK3-35" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="2IEhXaFTapYusUPB-sK3-24" target="2IEhXaFTapYusUPB-sK3-30">
+        <mxCell id="2IEhXaFTapYusUPB-sK3-35" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="2IEhXaFTapYusUPB-sK3-24" target="2IEhXaFTapYusUPB-sK3-30">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="2IEhXaFTapYusUPB-sK3-44" value="free teams to go" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2IEhXaFTapYusUPB-sK3-35">
@@ -244,7 +244,7 @@
             <mxPoint x="14" y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2IEhXaFTapYusUPB-sK3-39" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="2IEhXaFTapYusUPB-sK3-24" target="2IEhXaFTapYusUPB-sK3-33">
+        <mxCell id="2IEhXaFTapYusUPB-sK3-39" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="2IEhXaFTapYusUPB-sK3-24" target="2IEhXaFTapYusUPB-sK3-33">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="2IEhXaFTapYusUPB-sK3-48" value="relate allied contexts as" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2IEhXaFTapYusUPB-sK3-39">
