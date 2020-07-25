@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-07-25T07:38:45.635Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36" etag="Ay2D6wDzDW3yC8vjjcGW" version="13.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2020-07-25T08:43:09.678Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36" etag="P_zDVZO0rzR3r45ISzNx" version="13.4.2" type="github">
   <diagram id="cs3FqZIEFPSHvNL24JPY" name="Page-1">
     <mxGraphModel dx="2404" dy="888" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -463,6 +463,122 @@
         </mxCell>
         <mxCell id="ME1_6tc6-IFgKY0fcZYq-64" value="&lt;p style=&quot;line-height: 140%&quot;&gt;&lt;/p&gt;&lt;div style=&quot;text-align: left&quot;&gt;领域驱动设计：&lt;/div&gt;&lt;div style=&quot;text-align: right&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;解决领域模型的问题&lt;/div&gt;&lt;p&gt;&lt;/p&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;labelBackgroundColor=none;strokeWidth=1;fontFamily=Helvetica;align=center;size=30;position=0.29;base=20;" vertex="1" parent="1">
           <mxGeometry x="-425" y="40" width="155" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ME1_6tc6-IFgKY0fcZYq-66" value="&lt;p style=&quot;color: rgb(0 , 0 , 0) ; font-style: normal ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250)&quot;&gt;&lt;font face=&quot;????????&quot; style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;策略模式&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;color: rgb(0 , 0 , 0) ; font-style: normal ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250)&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;&lt;b&gt;领域模型包含一些并非用于解决技术问题的过程，将它们包含进来是因为它们对处理问题领域具有实际的价值。当必须从多个过程中进行选择时，选择的复杂性再加上多个过程本身的复杂性会使局面失去控制。&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;color: rgb(0 , 0 , 0) ; font-style: normal ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250)&quot;&gt;当对过程进行建模时，我们经常会发现过程有不止一种合理的实现方式，而如果把所有的可选项都写到过程的定义中，定义就会变得臃肿而复杂，而且可供我们选择的实际行为也会因为混杂在其他行为中而显得模糊不清。&lt;/p&gt;" style="text;whiteSpace=wrap;html=1;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="-425" y="960" width="425" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="ME1_6tc6-IFgKY0fcZYq-79" value="通过它指明方向" style="edgeStyle=none;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ME1_6tc6-IFgKY0fcZYq-67" target="ME1_6tc6-IFgKY0fcZYq-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ME1_6tc6-IFgKY0fcZYq-80" value="通过它指明内容" style="edgeStyle=none;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;" edge="1" parent="1" source="ME1_6tc6-IFgKY0fcZYq-67" target="ME1_6tc6-IFgKY0fcZYq-71">
+          <mxGeometry x="0.2146" y="-3" relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ME1_6tc6-IFgKY0fcZYq-81" value="通过重构和&lt;br&gt;重新打包&lt;br&gt;" style="edgeStyle=none;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;" edge="1" parent="1" source="ME1_6tc6-IFgKY0fcZYq-67" target="ME1_6tc6-IFgKY0fcZYq-70">
+          <mxGeometry x="0.2857" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ME1_6tc6-IFgKY0fcZYq-83" value="&lt;span style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;将通用的内聚子领域抽取&lt;br&gt;放在单独的module中&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 12px ; text-align: left ; background-color: rgb(248 , 249 , 250)&quot;&gt;可以从领域中清楚部分干扰性的细节&lt;/span&gt;&lt;span style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="edgeStyle=none;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;" edge="1" parent="1" source="ME1_6tc6-IFgKY0fcZYq-67" target="ME1_6tc6-IFgKY0fcZYq-69">
+          <mxGeometry x="0.2146" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ME1_6tc6-IFgKY0fcZYq-84" value="通过封装&lt;br&gt;隐藏具体的实现" style="edgeStyle=none;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ME1_6tc6-IFgKY0fcZYq-67" target="ME1_6tc6-IFgKY0fcZYq-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ME1_6tc6-IFgKY0fcZYq-67" value="&lt;span&gt;Core Domain&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="820" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ME1_6tc6-IFgKY0fcZYq-68" value="Cohesive Mechanism" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;align=center;" vertex="1" parent="1">
+          <mxGeometry x="920" y="880" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ME1_6tc6-IFgKY0fcZYq-86" value="通过它来展现能力" style="edgeStyle=none;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;" edge="1" parent="1" source="ME1_6tc6-IFgKY0fcZYq-69" target="ME1_6tc6-IFgKY0fcZYq-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ME1_6tc6-IFgKY0fcZYq-109" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;curved=1;dashed=1;strokeColor=#3333FF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1070" y="1130" as="targetPoint" />
+            <mxPoint x="1040" y="1040" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ME1_6tc6-IFgKY0fcZYq-69" value="&lt;span&gt;Generic Subdomain&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;align=center;" vertex="1" parent="1">
+          <mxGeometry x="920" y="1000" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ME1_6tc6-IFgKY0fcZYq-87" style="edgeStyle=none;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;" edge="1" parent="1" source="ME1_6tc6-IFgKY0fcZYq-70" target="ME1_6tc6-IFgKY0fcZYq-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ME1_6tc6-IFgKY0fcZYq-90" value="精炼为" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;" vertex="1" connectable="0" parent="ME1_6tc6-IFgKY0fcZYq-87">
+          <mxGeometry x="0.0009" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ME1_6tc6-IFgKY0fcZYq-91" style="edgeStyle=none;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;" edge="1" parent="1" source="ME1_6tc6-IFgKY0fcZYq-70" target="ME1_6tc6-IFgKY0fcZYq-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ME1_6tc6-IFgKY0fcZYq-92" value="精炼为" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;" vertex="1" connectable="0" parent="ME1_6tc6-IFgKY0fcZYq-91">
+          <mxGeometry x="-0.12" y="2" relative="1" as="geometry">
+            <mxPoint x="-2" y="5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ME1_6tc6-IFgKY0fcZYq-111" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontFamily=Helvetica;strokeColor=#3333FF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1100" y="1130" as="targetPoint" />
+            <mxPoint x="1170" y="1034" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ME1_6tc6-IFgKY0fcZYq-70" value="&lt;span&gt;Segregated Core&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="1000" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ME1_6tc6-IFgKY0fcZYq-88" value="精炼为" style="edgeStyle=none;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ME1_6tc6-IFgKY0fcZYq-71" target="ME1_6tc6-IFgKY0fcZYq-77">
+          <mxGeometry x="-0.007" relative="1" as="geometry">
+            <mxPoint x="1330" y="1120" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ME1_6tc6-IFgKY0fcZYq-71" value="&lt;span&gt;Highlighted Core&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1440" y="1000" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ME1_6tc6-IFgKY0fcZYq-72" value="&lt;span&gt;Domain Vision&lt;br&gt;Statement&lt;br&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1440" y="880" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ME1_6tc6-IFgKY0fcZYq-73" value="真正的业务资产——领域模型最为精华的部分&lt;br&gt;系统核心的价值和功能" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="785" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ME1_6tc6-IFgKY0fcZYq-74" value="&lt;font style=&quot;font-size: 12px&quot;&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;在CORE DOMAIN中努力 开发能够确保实现系统蓝图的深层模型和柔性设计。&lt;/span&gt;&lt;br style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250)&quot;&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;仔细判断任何其他部分的投入，看它是否能 够支持这个提炼出来的CORE。&lt;/span&gt;&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="1390" y="780" width="440" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ME1_6tc6-IFgKY0fcZYq-75" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px ; line-height: 170%&quot;&gt;CoreDomain&lt;/font&gt;&lt;/b&gt;&lt;br&gt;我们需要Core Domain&lt;br&gt;通过模式：发现、提炼、使用和修改 Core Domain" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="920" y="719" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ME1_6tc6-IFgKY0fcZYq-76" value="&lt;span&gt;Intention-Revealing&lt;br&gt;Interface&lt;br&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;align=center;" vertex="1" parent="1">
+          <mxGeometry x="920" y="1120" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ME1_6tc6-IFgKY0fcZYq-77" value="&lt;span&gt;声明式设计&lt;br&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1440" y="1120" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ME1_6tc6-IFgKY0fcZYq-78" value="&lt;span&gt;Abstract Core&lt;br&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="1120" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ME1_6tc6-IFgKY0fcZYq-93" value="CORE DOMAIN的简短描述(精简、一页纸)以及它将会创造的价值；&lt;br&gt;&lt;b&gt;（核心价值、重点要解决那些问题 288 415）&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="1570" y="885" width="370" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ME1_6tc6-IFgKY0fcZYq-95" value="&lt;div&gt;&lt;b&gt;描述CORE DOMAIN以及CORE 元素之间的主要交互过程。&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;（一个简短的文档即可）&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="1570" y="1005" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ME1_6tc6-IFgKY0fcZYq-100" value="比如导出组件&lt;br&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontFamily=Helvetica;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="1047" y="1010" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ME1_6tc6-IFgKY0fcZYq-105" value="可以基于 Intention-Revealing Interface&lt;br&gt;隔离 “做什么”和“如何做”" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="917" y="829" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ME1_6tc6-IFgKY0fcZYq-108" value="&lt;b&gt;&lt;font color=&quot;#3333ff&quot;&gt;两种模式效果相同，只是方向不同&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;font color=&quot;#3333ff&quot;&gt;&lt;b&gt;Generic Subdomain&lt;br&gt;&lt;/b&gt;&lt;/font&gt;将通用的部分抽走，剩下Core Domain；&lt;br&gt;&lt;font color=&quot;#3333ff&quot;&gt;&lt;b&gt;Segregated Core&lt;br&gt;&lt;/b&gt;&lt;/font&gt;将真正Core Domain抽取出来，余下其他部分；" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Helvetica;align=left;direction=west;position2=0.42;base=22;size=30;position=0.46;" vertex="1" parent="1">
+          <mxGeometry x="920" y="1160" width="260" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="ME1_6tc6-IFgKY0fcZYq-112" value="看到 Abstract Core" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeWidth=1;fillColor=#f8cecc;fontFamily=Helvetica;align=left;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="1180" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
