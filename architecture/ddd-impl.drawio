@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-07-30T10:32:11.196Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36" etag="PyF5w7_OieadEla4FICy" version="13.5.5" type="github">
+<mxfile host="app.diagrams.net" modified="2020-07-30T12:02:31.877Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36" etag="fQLZRCJ2pHCsgU4HvUHd" version="13.5.5" type="github">
   <diagram id="HGR84DPYoryr4UejDbrn" name="Page-1">
-    <mxGraphModel dx="2066" dy="1154" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="946" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -967,6 +967,18 @@
         </mxCell>
         <mxCell id="Rx8_rTDr1uG7aBfj7MTM-261" value="Infrastructure Layer&lt;br&gt;基础设施层" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#6C8EBF;" vertex="1" parent="1">
           <mxGeometry x="1485" y="640" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Rx8_rTDr1uG7aBfj7MTM-263" value="Repository 和 Entity" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#6C8EBF;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1160" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Rx8_rTDr1uG7aBfj7MTM-264" value="抽象第三方服务" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#6C8EBF;" vertex="1" parent="1">
+          <mxGeometry x="880" y="1160" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Rx8_rTDr1uG7aBfj7MTM-265" value="抽象中间件" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#6C8EBF;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1680" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Rx8_rTDr1uG7aBfj7MTM-266" value="封装业务逻辑" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#6C8EBF;" vertex="1" parent="1">
+          <mxGeometry x="875" y="1680" width="90" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
