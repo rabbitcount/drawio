@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2020-07-31T09:46:06.415Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36" etag="tq2grXUw0bKdQt8wy7Tk" version="13.5.5" type="github">
+<mxfile host="app.diagrams.net" modified="2020-07-31T10:05:33.164Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36" etag="4S3vTCe5_dD41x_bpEUW" version="13.5.5" type="github">
   <diagram id="HGR84DPYoryr4UejDbrn" name="Page-1">
     <mxGraphModel dx="2066" dy="1154" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Rx8_rTDr1uG7aBfj7MTM-297" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;labelBackgroundColor=none;sketch=0;strokeColor=#666666;fillColor=#f5f5f5;fontSize=12;fontColor=#333333;align=center;dashed=1;textOpacity=50;opacity=50;" vertex="1" parent="1">
+          <mxGeometry x="1390" y="70" width="430" height="180" as="geometry" />
+        </mxCell>
         <mxCell id="Rx8_rTDr1uG7aBfj7MTM-19" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=offPageConnector;rounded=0;size=0.6276595744680851;glass=0;dashed=1;dashPattern=1 1;fontColor=#6C8EBF;align=right;rotation=90;fillColor=#FFE6CC;strokeColor=none;opacity=40;" vertex="1" parent="1">
           <mxGeometry x="556.25" y="56.25" width="260" height="247.5" as="geometry" />
         </mxCell>
@@ -1018,6 +1021,40 @@
         </mxCell>
         <mxCell id="Rx8_rTDr1uG7aBfj7MTM-285" value="ACL, Repository 等的 &lt;b&gt;具体实现&lt;/b&gt;&lt;br&gt;Controller" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=12;fontColor=#6C8EBF;" vertex="1" parent="1">
           <mxGeometry x="1509.88" y="695" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Rx8_rTDr1uG7aBfj7MTM-289" value="&lt;span style=&quot;color: rgb(36, 41, 46);&quot;&gt;一个在特定领域里&lt;/span&gt;&lt;br style=&quot;color: rgb(36, 41, 46);&quot;&gt;&lt;span style=&quot;color: rgb(36, 41, 46);&quot;&gt;拥有精准定义的、可自我验证的、拥有行为的 Value Object 。&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;strokeWidth=1;fontSize=12;fontColor=#82B366;strokeColor=#666666;align=left;labelBackgroundColor=none;" edge="1" parent="1" source="Rx8_rTDr1uG7aBfj7MTM-287" target="Rx8_rTDr1uG7aBfj7MTM-288">
+          <mxGeometry y="-10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Rx8_rTDr1uG7aBfj7MTM-287" value="Value Object" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;labelBackgroundColor=none;sketch=0;strokeColor=#666666;fillColor=#f5f5f5;fontSize=12;fontColor=#333333;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1440" y="80" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Rx8_rTDr1uG7aBfj7MTM-288" value="Domain Primitive" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;labelBackgroundColor=none;sketch=0;strokeColor=#666666;fillColor=#f5f5f5;fontSize=12;fontColor=#333333;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1440" y="200" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Rx8_rTDr1uG7aBfj7MTM-295" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;strokeColor=#666666;strokeWidth=1;fontSize=12;fontColor=#82B366;align=left;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="1" source="Rx8_rTDr1uG7aBfj7MTM-290" target="Rx8_rTDr1uG7aBfj7MTM-291">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1630" y="110" />
+              <mxPoint x="1630" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Rx8_rTDr1uG7aBfj7MTM-290" value="Immutable" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;labelBackgroundColor=none;sketch=0;strokeColor=#82b366;fillColor=#d5e8d4;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1570" y="90" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Rx8_rTDr1uG7aBfj7MTM-291" value="Immutable" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;labelBackgroundColor=none;sketch=0;strokeColor=#82b366;fillColor=#d5e8d4;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1570" y="200" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Rx8_rTDr1uG7aBfj7MTM-292" value="Validity" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;labelBackgroundColor=none;sketch=0;strokeColor=#82b366;fillColor=#d5e8d4;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1650" y="200" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Rx8_rTDr1uG7aBfj7MTM-293" value="Side-Effect Free" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;labelBackgroundColor=none;sketch=0;strokeColor=#82b366;fillColor=#d5e8d4;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1570" y="220" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Rx8_rTDr1uG7aBfj7MTM-296" value="Data Transfer Object" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;labelBackgroundColor=none;sketch=0;strokeColor=#666666;fillColor=#f5f5f5;fontSize=12;fontColor=#333333;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1440" y="320" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
