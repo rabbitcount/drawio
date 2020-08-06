@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-06T09:26:01.012Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="475k5P-yRv8KUfrDWFKp" version="13.5.8" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-06T10:04:08.096Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="uFREp9Ulmugok-sAApEz" version="13.5.8" type="github">
   <diagram id="HGR84DPYoryr4UejDbrn" name="Page-1">
     <mxGraphModel dx="946" dy="1714" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1273,6 +1273,42 @@
             <mxGeometry x="2335" y="-50" width="340" height="30" as="geometry" />
           </mxCell>
         </UserObject>
+        <mxCell id="k__74r5_tCfTsesa0LqW-61" value="" style="endArrow=none;html=1;strokeColor=#808080;fillColor=none;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2820" y="240" as="sourcePoint" />
+            <mxPoint x="3110" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k__74r5_tCfTsesa0LqW-62" value="" style="endArrow=none;html=1;strokeColor=#808080;fillColor=none;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2960" y="320" as="sourcePoint" />
+            <mxPoint x="2960" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k__74r5_tCfTsesa0LqW-63" value="战略" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="2860" y="130" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="k__74r5_tCfTsesa0LqW-64" value="战术" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="3030" y="130" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="k__74r5_tCfTsesa0LqW-65" value="问题" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="2770" y="190" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="k__74r5_tCfTsesa0LqW-66" value="统一语言&lt;br&gt;Ubiquitous Language" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="2820" y="185" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="k__74r5_tCfTsesa0LqW-67" value="SubDomain&lt;br&gt;Core\Support\Generic" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="2975" y="185" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="k__74r5_tCfTsesa0LqW-68" value="Entity, Value Object&lt;br&gt;Service, Repository..." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="2975" y="265" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="k__74r5_tCfTsesa0LqW-69" value="Bounded Context&lt;br&gt;Context Map" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="2830" y="265" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="k__74r5_tCfTsesa0LqW-70" value="解决方案" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="2760" y="270" width="60" height="20" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
