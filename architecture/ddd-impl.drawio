@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-06T09:00:23.374Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="M58CYBlslztLlvuD1UKE" version="13.5.8" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-06T09:26:01.012Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="475k5P-yRv8KUfrDWFKp" version="13.5.8" type="github">
   <diagram id="HGR84DPYoryr4UejDbrn" name="Page-1">
     <mxGraphModel dx="946" dy="1714" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1265,12 +1265,12 @@
         <mxCell id="k__74r5_tCfTsesa0LqW-57" value="&lt;b&gt;CQS&lt;/b&gt;：Command Query Seperation&lt;br&gt;&lt;b&gt;CQRS&lt;/b&gt;：Command Query Responsibility Segregation&lt;br&gt;C-Command：命令，Modifier，更新软件状态的写操作；&lt;br&gt;Q-Query：查询，读操作，无副作用；&lt;br&gt;CQ：是Command或Query，但不可以两者兼是；&lt;br&gt;RS-Responsibility Segregation：将CQS的概念，从方法层面提升到模型层面；&quot;命令&quot;和&quot;查询&quot;使用不同的对象模型" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="1880" y="-95" width="620" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="k__74r5_tCfTsesa0LqW-59" value="CQRS：读写模型的分离" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;labelBackgroundColor=none;strokeColor=#808080;strokeWidth=1;fillColor=#D6B656;opacity=50;align=center;base=25;size=20;position=0.47;position2=0.4;" vertex="1" parent="1">
-          <mxGeometry x="2200" y="-95" width="150" height="55" as="geometry" />
+        <mxCell id="k__74r5_tCfTsesa0LqW-59" value="CQRS：读写模型的分离；存储分离（可选）" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;labelBackgroundColor=none;strokeColor=#808080;strokeWidth=1;fillColor=#D6B656;opacity=50;align=center;base=25;size=20;position=0.47;position2=0.4;" vertex="1" parent="1">
+          <mxGeometry x="2200" y="-95" width="260" height="55" as="geometry" />
         </mxCell>
         <UserObject label="https://insights.thoughtworks.cn/backend-development-cqrs/" link="https://insights.thoughtworks.cn/backend-development-cqrs/" id="k__74r5_tCfTsesa0LqW-60">
           <mxCell style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-            <mxGeometry x="2360" y="-90" width="340" height="30" as="geometry" />
+            <mxGeometry x="2335" y="-50" width="340" height="30" as="geometry" />
           </mxCell>
         </UserObject>
       </root>
