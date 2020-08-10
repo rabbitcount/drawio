@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-10T09:09:31.796Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="U9fu6_aZcDPU5rjLD-Cf" version="13.5.8" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-10T09:18:53.460Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="o4JK0tAnj_kT212YrojW" version="13.5.8" type="github">
   <diagram id="HGR84DPYoryr4UejDbrn" name="Page-1">
     <mxGraphModel dx="2165" dy="5871" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -1584,47 +1584,59 @@
         <mxCell id="k__74r5_tCfTsesa0LqW-192" value="真正的从业务的角度出发，为全世界绝大部分做纯业务的开发提供了一整套的架构思路。" style="text;whiteSpace=wrap;html=1;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="1680" y="-585" width="490" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="k__74r5_tCfTsesa0LqW-194" value="&lt;font style=&quot;font-size: 15px&quot;&gt;Domain Primitive&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;glass=0;labelBackgroundColor=none;sketch=1;strokeWidth=1;align=left;spacingLeft=2;fillColor=#f5f5f5;fontColor=#333333;opacity=80;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2590" y="-480" width="930" height="220" as="geometry" />
+        <mxCell id="k__74r5_tCfTsesa0LqW-213" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="2580" y="-500" width="960" height="240" as="geometry" />
         </mxCell>
-        <mxCell id="k__74r5_tCfTsesa0LqW-195" value="Make Implicit &lt;b&gt;Concepts&lt;/b&gt; Explicit&lt;br&gt;将 隐性的概念 显性化" style="rounded=0;whiteSpace=wrap;html=1;glass=0;labelBackgroundColor=none;sketch=1;strokeWidth=1;align=center;shadow=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="2720" y="-470.75" width="240" height="40" as="geometry" />
+        <mxCell id="k__74r5_tCfTsesa0LqW-194" value="&lt;font style=&quot;font-size: 15px&quot;&gt;Domain Primitive&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;glass=0;labelBackgroundColor=none;sketch=1;strokeWidth=1;align=left;spacingLeft=8;fontColor=#333333;strokeColor=none;fillColor=#E8E8E8;opacity=60;fontStyle=1" vertex="1" parent="k__74r5_tCfTsesa0LqW-213">
+          <mxGeometry width="940" height="240" as="geometry" />
         </mxCell>
-        <mxCell id="k__74r5_tCfTsesa0LqW-196" value="Make Implicit &lt;b&gt;Context&lt;/b&gt; Explicit&lt;br&gt;将 隐形的 上下文 显性化" style="rounded=0;whiteSpace=wrap;html=1;glass=0;labelBackgroundColor=none;sketch=1;strokeWidth=1;align=center;shadow=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="2720" y="-410.75" width="240" height="40" as="geometry" />
+        <mxCell id="k__74r5_tCfTsesa0LqW-195" value="Make Implicit &lt;b&gt;Concepts&lt;/b&gt; Explicit&lt;br&gt;将 隐性的概念 显性化" style="rounded=0;whiteSpace=wrap;html=1;glass=0;labelBackgroundColor=none;sketch=1;strokeWidth=1;align=center;shadow=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="k__74r5_tCfTsesa0LqW-213">
+          <mxGeometry x="140" y="29.25" width="240" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="k__74r5_tCfTsesa0LqW-198" value="可测试性" style="rounded=1;whiteSpace=wrap;html=1;glass=0;labelBackgroundColor=none;sketch=0;strokeWidth=1;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=#577299;" vertex="1" parent="1">
-          <mxGeometry x="3000" y="-300.75" width="160" height="30" as="geometry" />
+        <mxCell id="k__74r5_tCfTsesa0LqW-196" value="Make Implicit &lt;b&gt;Context&lt;/b&gt; Explicit&lt;br&gt;将 隐形的 上下文 显性化" style="rounded=0;whiteSpace=wrap;html=1;glass=0;labelBackgroundColor=none;sketch=1;strokeWidth=1;align=center;shadow=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="k__74r5_tCfTsesa0LqW-213">
+          <mxGeometry x="140" y="95" width="240" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="k__74r5_tCfTsesa0LqW-199" value="数据验证和错误处理" style="rounded=1;whiteSpace=wrap;html=1;glass=0;labelBackgroundColor=none;sketch=0;strokeWidth=1;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=#577299;" vertex="1" parent="1">
-          <mxGeometry x="3000" y="-415.75" width="160" height="30" as="geometry" />
+        <mxCell id="k__74r5_tCfTsesa0LqW-198" value="可测试性" style="rounded=1;whiteSpace=wrap;html=1;glass=0;labelBackgroundColor=none;sketch=0;strokeWidth=1;align=center;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="k__74r5_tCfTsesa0LqW-213">
+          <mxGeometry x="420" y="199.25" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="k__74r5_tCfTsesa0LqW-200" value="业务逻辑代码的清晰度" style="rounded=1;whiteSpace=wrap;html=1;glass=0;labelBackgroundColor=none;sketch=0;strokeWidth=1;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=#577299;" vertex="1" parent="1">
-          <mxGeometry x="3000" y="-360" width="160" height="30" as="geometry" />
+        <mxCell id="k__74r5_tCfTsesa0LqW-199" value="数据验证和错误处理" style="rounded=1;whiteSpace=wrap;html=1;glass=0;labelBackgroundColor=none;sketch=0;strokeWidth=1;align=center;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="k__74r5_tCfTsesa0LqW-213">
+          <mxGeometry x="420" y="84.25" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="k__74r5_tCfTsesa0LqW-201" value="接口的清晰度（可阅读性）" style="rounded=1;whiteSpace=wrap;html=1;glass=0;labelBackgroundColor=none;sketch=0;strokeWidth=1;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=#577299;" vertex="1" parent="1">
-          <mxGeometry x="3000" y="-470.75" width="160" height="30" as="geometry" />
+        <mxCell id="k__74r5_tCfTsesa0LqW-200" value="业务逻辑代码的清晰度" style="rounded=1;whiteSpace=wrap;html=1;glass=0;labelBackgroundColor=none;sketch=0;strokeWidth=1;align=center;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="k__74r5_tCfTsesa0LqW-213">
+          <mxGeometry x="420" y="140" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="k__74r5_tCfTsesa0LqW-203" value="编译阶段类型丢失；在编译阶段能够发现问题；&lt;br&gt;参数类型相同（比如byName，byMis），不应该通过方法名区分；" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#577299;" vertex="1" parent="1">
-          <mxGeometry x="3170" y="-470.75" width="370" height="30" as="geometry" />
+        <mxCell id="k__74r5_tCfTsesa0LqW-201" value="接口的清晰度（可阅读性）" style="rounded=1;whiteSpace=wrap;html=1;glass=0;labelBackgroundColor=none;sketch=0;strokeWidth=1;align=center;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="k__74r5_tCfTsesa0LqW-213">
+          <mxGeometry x="420" y="29.25" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="k__74r5_tCfTsesa0LqW-204" value="业务逻辑异常和校验异常，不应混合在一起；" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#577299;" vertex="1" parent="1">
-          <mxGeometry x="3170" y="-410.75" width="260" height="20" as="geometry" />
+        <mxCell id="k__74r5_tCfTsesa0LqW-203" value="编译阶段类型丢失；在编译阶段能够发现问题；&lt;br&gt;参数类型相同（比如byName，byMis），不应该通过方法名区分；" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#333333;" vertex="1" parent="k__74r5_tCfTsesa0LqW-213">
+          <mxGeometry x="590" y="29.25" width="370" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="k__74r5_tCfTsesa0LqW-205" value="减少胶水代码（外部入参不符引起的数据转换）&lt;br&gt;不应该通过Utils解决，会导致业务代码散乱；" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#577299;" vertex="1" parent="1">
-          <mxGeometry x="3170" y="-360.75" width="270" height="30" as="geometry" />
+        <mxCell id="k__74r5_tCfTsesa0LqW-204" value="业务逻辑异常和校验异常，不应混合在一起；" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#333333;" vertex="1" parent="k__74r5_tCfTsesa0LqW-213">
+          <mxGeometry x="590" y="89.25" width="260" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="k__74r5_tCfTsesa0LqW-206" value="可测试，不要出现笛卡尔积；" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#577299;" vertex="1" parent="1">
-          <mxGeometry x="3170" y="-295.75" width="170" height="20" as="geometry" />
+        <mxCell id="k__74r5_tCfTsesa0LqW-205" value="减少胶水代码（外部入参不符引起的数据转换）&lt;br&gt;不应该通过Utils解决，会导致业务代码散乱；" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#333333;" vertex="1" parent="k__74r5_tCfTsesa0LqW-213">
+          <mxGeometry x="590" y="139.25" width="270" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="k__74r5_tCfTsesa0LqW-207" value="比如转账场景中，币种就是上下文中隐藏的概念。&lt;br&gt;实际上需要的一个入参是支付金额 + 支付货币&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#333333;" vertex="1" parent="1">
-          <mxGeometry x="2708" y="-368" width="280" height="30" as="geometry" />
+        <mxCell id="k__74r5_tCfTsesa0LqW-206" value="Test Case数量可控，不要出现笛卡尔积；&lt;br&gt;测试成本尽可能低；" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#333333;" vertex="1" parent="k__74r5_tCfTsesa0LqW-213">
+          <mxGeometry x="590" y="199.25" width="240" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="k__74r5_tCfTsesa0LqW-208" value="Encapsulate Multi-Object Behavior&lt;br&gt;封装 多对象 行为" style="rounded=0;whiteSpace=wrap;html=1;glass=0;labelBackgroundColor=none;sketch=1;strokeWidth=1;align=center;shadow=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="2720" y="-330.75" width="240" height="40" as="geometry" />
+        <mxCell id="k__74r5_tCfTsesa0LqW-207" value="比如转账场景中，币种就是上下文中隐藏的概念。&lt;br&gt;实际上需要的一个入参是支付金额 + 支付货币&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#333333;" vertex="1" parent="k__74r5_tCfTsesa0LqW-213">
+          <mxGeometry x="127.5" y="138" width="280" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="k__74r5_tCfTsesa0LqW-209" value="跨多个DP或Entity的行为（如ExchangeRate）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#333333;" vertex="1" parent="1">
-          <mxGeometry x="2718" y="-290.75" width="260" height="20" as="geometry" />
+        <mxCell id="k__74r5_tCfTsesa0LqW-208" value="Encapsulate Multi-Object Behavior&lt;br&gt;封装 多对象 行为" style="rounded=0;whiteSpace=wrap;html=1;glass=0;labelBackgroundColor=none;sketch=1;strokeWidth=1;align=center;shadow=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="k__74r5_tCfTsesa0LqW-213">
+          <mxGeometry x="140" y="174" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="k__74r5_tCfTsesa0LqW-209" value="跨多个DP或Entity的行为（如ExchangeRate）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#333333;" vertex="1" parent="k__74r5_tCfTsesa0LqW-213">
+          <mxGeometry x="137.5" y="214" width="260" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="k__74r5_tCfTsesa0LqW-210" value="PhoneNumber" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#333333;" vertex="1" parent="k__74r5_tCfTsesa0LqW-213">
+          <mxGeometry x="230" y="70" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="k__74r5_tCfTsesa0LqW-211" value="原则" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#333333;fontStyle=1" vertex="1" parent="k__74r5_tCfTsesa0LqW-213">
+          <mxGeometry x="235" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="k__74r5_tCfTsesa0LqW-212" value="评估维度" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#333333;fontStyle=1" vertex="1" parent="k__74r5_tCfTsesa0LqW-213">
+          <mxGeometry x="462.5" width="60" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
