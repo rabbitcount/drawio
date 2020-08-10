@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-10T06:05:06.200Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="2F9iDyvELl_nC8MQPo-R" version="13.5.8" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-10T06:43:58.899Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="Mxe_X-tsUWcXcQx9APuf" version="13.5.8" type="github">
   <diagram id="HGR84DPYoryr4UejDbrn" name="Page-1">
     <mxGraphModel dx="2165" dy="2290" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -11,13 +11,13 @@
           <mxGeometry x="2780" y="200" width="170" height="210" as="geometry" />
         </mxCell>
         <mxCell id="na9q9-R0wcQOXwDvBzgQ-10" value="Application层" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;opacity=50;dashed=1;align=center;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="1960" y="80" width="320" height="100" as="geometry" />
+          <mxGeometry x="1910" y="80" width="370" height="100" as="geometry" />
         </mxCell>
         <mxCell id="na9q9-R0wcQOXwDvBzgQ-11" value="Infrastructure层" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;opacity=60;dashed=1;verticalAlign=bottom;" parent="1" vertex="1">
           <mxGeometry x="2160" y="90" width="320" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="Rx8_rTDr1uG7aBfj7MTM-297" value="Domain 层" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;labelBackgroundColor=none;sketch=0;strokeColor=#82b366;fillColor=#d5e8d4;fontSize=12;align=center;dashed=1;opacity=50;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="2040" y="250" width="390" height="200" as="geometry" />
+        <mxCell id="Rx8_rTDr1uG7aBfj7MTM-297" value="Domain 层" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;labelBackgroundColor=none;sketch=0;strokeColor=#82b366;fillColor=#d5e8d4;fontSize=12;align=center;dashed=1;opacity=50;verticalAlign=top;arcSize=6;" parent="1" vertex="1">
+          <mxGeometry x="1920" y="280" width="380" height="200" as="geometry" />
         </mxCell>
         <mxCell id="Rx8_rTDr1uG7aBfj7MTM-19" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=offPageConnector;rounded=0;size=0.6276595744680851;glass=0;dashed=1;dashPattern=1 1;fontColor=#6C8EBF;align=right;rotation=90;fillColor=#FFE6CC;strokeColor=none;opacity=40;" parent="1" vertex="1">
           <mxGeometry x="556.25" y="56.25" width="260" height="247.5" as="geometry" />
@@ -1035,46 +1035,46 @@
           <mxGeometry x="1509.88" y="695" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Rx8_rTDr1uG7aBfj7MTM-289" value="&lt;span style=&quot;color: rgb(36, 41, 46);&quot;&gt;一个在特定领域里&lt;/span&gt;&lt;br style=&quot;color: rgb(36, 41, 46);&quot;&gt;&lt;span style=&quot;color: rgb(36, 41, 46);&quot;&gt;拥有精准定义的、可自我验证的、拥有行为的 Value Object 。&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;strokeWidth=1;fontSize=12;fontColor=#82B366;strokeColor=#666666;align=left;labelBackgroundColor=none;" parent="1" source="Rx8_rTDr1uG7aBfj7MTM-287" target="Rx8_rTDr1uG7aBfj7MTM-288" edge="1">
-          <mxGeometry y="-10" relative="1" as="geometry">
+          <mxGeometry y="-20" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Rx8_rTDr1uG7aBfj7MTM-287" value="Value Object" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;labelBackgroundColor=none;sketch=0;strokeColor=#666666;fillColor=#f5f5f5;fontSize=12;fontColor=#333333;align=center;" parent="1" vertex="1">
-          <mxGeometry x="2050" y="280" width="120" height="40" as="geometry" />
+          <mxGeometry x="1930" y="310" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Rx8_rTDr1uG7aBfj7MTM-288" value="Domain Primitive" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;labelBackgroundColor=none;sketch=0;strokeColor=#666666;fillColor=#f5f5f5;fontSize=12;fontColor=#333333;align=center;" parent="1" vertex="1">
-          <mxGeometry x="2050" y="400" width="120" height="40" as="geometry" />
+          <mxGeometry x="1930" y="430" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Rx8_rTDr1uG7aBfj7MTM-295" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;strokeColor=#666666;strokeWidth=1;fontSize=12;fontColor=#82B366;align=left;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;" parent="1" source="Rx8_rTDr1uG7aBfj7MTM-290" target="Rx8_rTDr1uG7aBfj7MTM-291" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="2240" y="310" />
-              <mxPoint x="2240" y="400" />
+              <mxPoint x="2120" y="340" />
+              <mxPoint x="2120" y="430" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="Rx8_rTDr1uG7aBfj7MTM-290" value="Immutable" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;labelBackgroundColor=none;sketch=0;strokeColor=#82b366;fillColor=#d5e8d4;fontSize=12;align=center;" parent="1" vertex="1">
-          <mxGeometry x="2180" y="290" width="80" height="20" as="geometry" />
+          <mxGeometry x="2060" y="320" width="80" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Rx8_rTDr1uG7aBfj7MTM-291" value="Immutable" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;labelBackgroundColor=none;sketch=0;strokeColor=#82b366;fillColor=#d5e8d4;fontSize=12;align=center;" parent="1" vertex="1">
-          <mxGeometry x="2180" y="400" width="80" height="20" as="geometry" />
+          <mxGeometry x="2060" y="430" width="80" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Rx8_rTDr1uG7aBfj7MTM-292" value="Validity" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;labelBackgroundColor=none;sketch=0;strokeColor=#82b366;fillColor=#d5e8d4;fontSize=12;align=center;" parent="1" vertex="1">
-          <mxGeometry x="2260" y="400" width="80" height="20" as="geometry" />
+          <mxGeometry x="2140" y="430" width="80" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Rx8_rTDr1uG7aBfj7MTM-293" value="Side-Effect Free" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;labelBackgroundColor=none;sketch=0;strokeColor=#82b366;fillColor=#d5e8d4;fontSize=12;align=center;" parent="1" vertex="1">
-          <mxGeometry x="2180" y="420" width="160" height="20" as="geometry" />
+          <mxGeometry x="2060" y="450" width="160" height="20" as="geometry" />
         </mxCell>
         <mxCell id="na9q9-R0wcQOXwDvBzgQ-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" parent="1" source="na9q9-R0wcQOXwDvBzgQ-1" target="na9q9-R0wcQOXwDvBzgQ-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="na9q9-R0wcQOXwDvBzgQ-1" value="DTO" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1970" y="120" width="80" height="40" as="geometry" />
+        <mxCell id="na9q9-R0wcQOXwDvBzgQ-1" value="DTO&lt;br&gt;(Data Transfer Object)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1920" y="120" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="na9q9-R0wcQOXwDvBzgQ-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="na9q9-R0wcQOXwDvBzgQ-2" target="na9q9-R0wcQOXwDvBzgQ-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="na9q9-R0wcQOXwDvBzgQ-3" value="DO" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="na9q9-R0wcQOXwDvBzgQ-3" value="DO&lt;br&gt;(Data Object)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2390" y="120" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="na9q9-R0wcQOXwDvBzgQ-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="na9q9-R0wcQOXwDvBzgQ-4" target="na9q9-R0wcQOXwDvBzgQ-2" edge="1">
@@ -1100,7 +1100,7 @@
           <mxGeometry x="2180" y="120" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="na9q9-R0wcQOXwDvBzgQ-15" value="Entity" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;labelBackgroundColor=none;sketch=0;strokeColor=#666666;fillColor=#f5f5f5;fontSize=12;fontColor=#333333;align=center;" parent="1" vertex="1">
-          <mxGeometry x="2290" y="280" width="120" height="40" as="geometry" />
+          <mxGeometry x="2170" y="310" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="k__74r5_tCfTsesa0LqW-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fillColor=none;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#808080;" edge="1" parent="1" source="k__74r5_tCfTsesa0LqW-1" target="k__74r5_tCfTsesa0LqW-24">
           <mxGeometry relative="1" as="geometry">
@@ -1438,6 +1438,57 @@
         </mxCell>
         <mxCell id="k__74r5_tCfTsesa0LqW-127" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://ucc.alicdn.com/pic/developer-ecology/de18a723cdd14ee89f5d98857bc9973a.png;" vertex="1" parent="1">
           <mxGeometry x="2560" y="595" width="1215.7" height="685" as="geometry" />
+        </mxCell>
+        <mxCell id="k__74r5_tCfTsesa0LqW-136" style="edgeStyle=orthogonalEdgeStyle;sketch=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=1;fillColor=#D6B656;fontColor=#9673A6;strokeColor=#6C8EBF;rounded=0;" edge="1" parent="1" source="k__74r5_tCfTsesa0LqW-129" target="k__74r5_tCfTsesa0LqW-132">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k__74r5_tCfTsesa0LqW-137" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#6C8EBF;strokeWidth=1;fillColor=#D6B656;fontColor=#9673A6;" edge="1" parent="1" source="k__74r5_tCfTsesa0LqW-129" target="k__74r5_tCfTsesa0LqW-131">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k__74r5_tCfTsesa0LqW-129" value="Entity 实体" style="rounded=0;whiteSpace=wrap;html=1;glass=0;labelBackgroundColor=none;sketch=0;strokeWidth=1;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=#6C8EBF;" vertex="1" parent="1">
+          <mxGeometry x="200" y="-240" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="k__74r5_tCfTsesa0LqW-130" value="1976 Peter Chen&lt;br&gt;The Entity-Relationship Model &lt;br&gt;Toward a Unified View of Data" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#9673A6;" vertex="1" parent="1">
+          <mxGeometry x="170" y="-390" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="k__74r5_tCfTsesa0LqW-131" value="数据映射层面&lt;br&gt;E-R" style="rounded=0;whiteSpace=wrap;html=1;glass=0;labelBackgroundColor=none;sketch=0;strokeWidth=1;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=#6C8EBF;" vertex="1" parent="1">
+          <mxGeometry x="520" y="-200" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="k__74r5_tCfTsesa0LqW-132" value="Entity 自身的行为" style="rounded=0;whiteSpace=wrap;html=1;glass=0;labelBackgroundColor=none;sketch=0;strokeWidth=1;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=#6C8EBF;" vertex="1" parent="1">
+          <mxGeometry x="520" y="-280" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="k__74r5_tCfTsesa0LqW-133" value="描述实体间关系的&lt;br&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;数据模型&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#9673A6;" vertex="1" parent="1">
+          <mxGeometry x="205" y="-280" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="k__74r5_tCfTsesa0LqW-134" value="2006年的JPA标准&lt;br&gt;通过@Entity等注解，以及Hibernate等ORM实现，&lt;br&gt;将对E-R模型的理解仅停留在数据映射层面，忽略Entity实体的本身行为。" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#9673A6;" vertex="1" parent="1">
+          <mxGeometry x="366.13" y="-390" width="400" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="k__74r5_tCfTsesa0LqW-135" value="仅包含实体的数据和属性&lt;br&gt;Anemic Domain Model 贫血模型" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#9673A6;" vertex="1" parent="1">
+          <mxGeometry x="655" y="-195" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="k__74r5_tCfTsesa0LqW-139" value="贫血模型的标志 &lt;br&gt;1. Domain Object仅是数据表结构的映射；里面没有包含（或包含很少的）业务逻辑； &lt;br&gt;2. Service或Controller中有大量的业务逻辑：比如校验、计算、格式转换、数据存储；大量的Utils工具类；&lt;br&gt;&lt;br&gt;贫血模型的缺点：&lt;br&gt;&lt;strong&gt;1. 无法保护模型对象的完整性和一致性&lt;/strong&gt;&lt;span&gt;：&lt;br&gt;&amp;nbsp; &amp;nbsp; 因为对象的所有属性都是公开的，只能由调用方来维护模型的一致性，而这个是没有保障的；&lt;br&gt;&lt;/span&gt;&lt;strong&gt;2. 对象操作的可发现性极差&lt;/strong&gt;&lt;span&gt;：&amp;nbsp;&lt;br&gt;&amp;nbsp; &amp;nbsp;单纯从对象的属性上很难看出来都有哪些业务逻辑，什么时候可以被调用，以及可以赋值的边界是什么；比如说，Long类型的值是否可以是0或者负数？&lt;br&gt;&lt;/span&gt;&lt;strong&gt;3. 代码逻辑重复&lt;/strong&gt;&lt;span&gt;：&lt;br&gt;&amp;nbsp; &amp;nbsp; 比如校验逻辑、计算逻辑，都很容易出现在多个服务、多个代码块里，提升维护成本和bug出现的概率；&lt;br&gt;&amp;nbsp; &amp;nbsp; 一类常见的bug就是当贫血模型变更后，校验逻辑由于出现在多个地方，没有能跟着变，导致校验失败或失效。&lt;br&gt;&lt;/span&gt;&lt;strong&gt;4. 代码的健壮性差&lt;/strong&gt;&lt;span&gt;：&lt;br&gt;&amp;nbsp; &amp;nbsp; 比如一个数据模型的变化可能导致从上到下的所有代码的变更。&lt;br&gt;&lt;/span&gt;&lt;strong&gt;5. 强依赖底层实现&lt;/strong&gt;&lt;span&gt;：&lt;br&gt;&amp;nbsp; &amp;nbsp; 业务代码里强依赖了底层数据库、网络/中间件协议、第三方服务等，造成核心逻辑代码的僵化且维护成本高。&lt;br&gt;&lt;/span&gt;&lt;span&gt;&lt;br&gt;为什么还在使用贫血模型：&lt;br&gt;&lt;/span&gt;&lt;strong&gt;1. 数据库思维&lt;/strong&gt;&lt;span&gt;：&lt;br&gt;&amp;nbsp; &amp;nbsp; 从有了数据库的那一天起，开发人员的思考方式就逐渐从“写业务逻辑“转变为了”写数据库逻辑”，也就是我们经常说的在写CRUD代码。&lt;br&gt;&lt;/span&gt;&lt;strong&gt;2. 贫血模型“简单&lt;br&gt;&lt;/strong&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; 贫血模型的优势在于“简单”，仅仅是对数据库表的字段映射，所以可以从前到后用统一格式串通。&lt;br&gt;&amp;nbsp; &amp;nbsp; 这里简单打了引号，是因为它只是表面上的简单，实际上当未来有模型变更时，你会发现其实并不简单，每次变更都是非常复杂的事情&lt;br&gt;&lt;/span&gt;&lt;strong&gt;3. 脚本思维&lt;br&gt;&lt;/strong&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; 很多常见的代码都属于“脚本”或“胶水代码”，也就是流程式代码。脚本代码的好处就是比较容易理解，但长久来看缺乏健壮性，维护成本会越来越高。&lt;/span&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#9673A6;" vertex="1" parent="1">
+          <mxGeometry x="880" y="-440" width="830" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="k__74r5_tCfTsesa0LqW-143" value="关于贫血模型" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;strokeWidth=1;align=center;outlineConnect=0;dashed=0;outlineConnect=0;shape=mxgraph.aws3d.flatEdge;fillColor=#000000;aspect=fixed;rounded=1;glass=0;labelBackgroundColor=none;sketch=0;fontColor=#6C8EBF;" vertex="1" parent="1">
+          <mxGeometry x="790" y="-276" width="67.73" height="38.58" as="geometry" />
+        </mxCell>
+        <mxCell id="k__74r5_tCfTsesa0LqW-144" value="把握两个概念" style="shape=mxgraph.arrows.arrow_right;html=1;verticalLabelPosition=bottom;verticalAlign=top;strokeWidth=2;rounded=1;glass=0;labelBackgroundColor=none;sketch=0;fillColor=#D6B656;fontColor=#6C8EBF;align=left;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1700" y="-285" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="k__74r5_tCfTsesa0LqW-145" value="Data Model&lt;br&gt;（数据模型）" style="rounded=0;whiteSpace=wrap;html=1;glass=0;labelBackgroundColor=none;sketch=0;strokeColor=#d6b656;strokeWidth=1;fillColor=#fff2cc;align=center;fontColor=#9E8640;" vertex="1" parent="1">
+          <mxGeometry x="1840" y="-360" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="k__74r5_tCfTsesa0LqW-146" value="Domain Model&lt;br&gt;（领域模型）" style="rounded=0;whiteSpace=wrap;html=1;glass=0;labelBackgroundColor=none;sketch=0;strokeColor=#d6b656;strokeWidth=1;fillColor=#fff2cc;align=center;fontColor=#9E8640;" vertex="1" parent="1">
+          <mxGeometry x="1840" y="-200" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="k__74r5_tCfTsesa0LqW-148" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;rounded=1;glass=0;labelBackgroundColor=none;sketch=0;fillColor=#D6B656;fontColor=#6C8EBF;strokeColor=#9E8640;" vertex="1" parent="1">
+          <mxGeometry x="1780" y="-360" width="40" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="k__74r5_tCfTsesa0LqW-149" value="业务数据该如何持久化，以及数据之间的关系；&lt;br&gt;也就是传统的ER模型；" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#9E8640;" vertex="1" parent="1">
+          <mxGeometry x="1840" y="-310" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="k__74r5_tCfTsesa0LqW-150" value="业务逻辑中，相关联的数据该如何联动。" style="text;whiteSpace=wrap;html=1;fontColor=#9E8640;" vertex="1" parent="1">
+          <mxGeometry x="1840" y="-150" width="250" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
