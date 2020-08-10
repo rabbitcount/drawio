@@ -1,9 +1,15 @@
-<mxfile host="app.diagrams.net" modified="2020-08-10T07:19:27.447Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="Y3eyrHLLBi42QZDqqVu9" version="13.5.8" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-10T08:42:00.021Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="d7saeTSLLPVggjUrfkRz" version="13.5.8" type="github">
   <diagram id="HGR84DPYoryr4UejDbrn" name="Page-1">
     <mxGraphModel dx="2165" dy="5871" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="k__74r5_tCfTsesa0LqW-190" value="通过技术手段，解决技术问题" style="rounded=1;whiteSpace=wrap;html=1;glass=0;labelBackgroundColor=none;sketch=0;strokeColor=#666666;strokeWidth=1;fillColor=#f5f5f5;align=center;fontColor=#333333;opacity=40;verticalAlign=top;arcSize=6;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="-900" width="330" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="k__74r5_tCfTsesa0LqW-188" value="从业务角度出发，为纯业务的开发提供一整套机构思路" style="rounded=1;whiteSpace=wrap;html=1;glass=0;labelBackgroundColor=none;sketch=0;strokeWidth=1;fillColor=#d5e8d4;align=center;fontColor=#6B9454;opacity=30;verticalAlign=top;arcSize=8;dashed=1;strokeColor=#455E36;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="-670" width="330" height="180" as="geometry" />
+        </mxCell>
         <mxCell id="k__74r5_tCfTsesa0LqW-23" value="" style="ellipse;whiteSpace=wrap;html=1;dashed=1;strokeWidth=3;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="2665" y="20" width="570" height="520" as="geometry" />
         </mxCell>
@@ -1505,6 +1511,78 @@
         </mxCell>
         <mxCell id="k__74r5_tCfTsesa0LqW-160" value="Repository代码规范&lt;br&gt;&lt;br&gt;&lt;div&gt;&lt;div&gt;&lt;p&gt;&lt;strong&gt;1、接口名称不应该使用底层实现的语法&lt;/strong&gt;：我们常见的insert、select、update、delete都属于SQL语法，使用这几个词相当于和DB底层实现做了绑定。相反，我们应该把 Repository 当成一个中性的类 似Collection 的接口，使用语法如 find、save、remove。在这里特别需要指出的是区分 insert/add 和 update 本身也是一种和底层强绑定的逻辑，一些储存如缓存实际上不存在insert和update的差异，在这个 case 里，使用中性的 save 接口，然后在具体实现上根据情况调用 DAO 的 insert 或 update 接口。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;2、出参入参不应该使用底层数据格式&lt;/strong&gt;：需要记得的是 Repository 操作的是  Entity 对象（实际上应该是Aggregate Root），而不应该直接操作底层的 DO 。更近一步，Repository 接口实际上应该存在于Domain层，根本看不到 DO 的实现。这个也是为了避免底层实现逻辑渗透到业务代码中的强保障。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;3、应该避免所谓的“通用”Repository模式&lt;/strong&gt;：很多 ORM 框架都提供一个“通用”的Repository接口，然后框架通过注解自动实现接口，比较典型的例子是Spring Data、Entity Framework等，这种框架的好处是在简单场景下很容易通过配置实现，但是坏处是基本上无扩展的可能性（比如加定制缓存逻辑），在未来有可能还是会被推翻重做。&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontColor=#62874D;" vertex="1" parent="1">
           <mxGeometry x="200" y="-760" width="910" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="k__74r5_tCfTsesa0LqW-161" value="对于一个架构师来说，在软件开发中如何降低系统复杂度是一个永恒的挑战，&lt;br&gt;无论是 94 年 GoF 的 Design Patterns ， 99 年的 Martin Fowler 的 Refactoring ， &lt;br&gt;02 年的 P of EAA ，还是 03 年的 Enterprise Integration Patterns ，&lt;br&gt;都是通过一系列的设计模式或范例来降低一些常见的复杂度。&lt;br&gt;但是问题在于，这些书的理念是通过技术手段解决技术问题，但并没有从根本上解决业务的问题。&lt;br&gt;所以 03 年 Eric Evans 的 Domain Driven Design 一书，以及后续 Vaughn Vernon 的 Implementing DDD ， &lt;br&gt;Uncle Bob 的 Clean Architecture 等书，真正的从业务的角度出发，&lt;br&gt;为全世界绝大部分做纯业务的开发提供了一整套的架构思路。 前言" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#62874D;" vertex="1" parent="1">
+          <mxGeometry x="1675" y="-1010" width="580" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="k__74r5_tCfTsesa0LqW-162" value="94" style="rounded=0;whiteSpace=wrap;html=1;glass=0;labelBackgroundColor=none;sketch=0;strokeColor=#666666;strokeWidth=1;fillColor=#f5f5f5;fontColor=#333333;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="-870" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="k__74r5_tCfTsesa0LqW-163" value="GoF" style="rounded=0;whiteSpace=wrap;html=1;glass=0;labelBackgroundColor=none;sketch=0;strokeColor=#666666;strokeWidth=1;fillColor=#f5f5f5;fontColor=#333333;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="-870" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="k__74r5_tCfTsesa0LqW-164" value="Design Patterns" style="rounded=0;whiteSpace=wrap;html=1;glass=0;labelBackgroundColor=none;sketch=0;strokeColor=#666666;strokeWidth=1;fillColor=#f5f5f5;fontColor=#333333;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="-870" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="k__74r5_tCfTsesa0LqW-165" value="99" style="rounded=0;whiteSpace=wrap;html=1;glass=0;labelBackgroundColor=none;sketch=0;strokeColor=#666666;strokeWidth=1;fillColor=#f5f5f5;fontColor=#333333;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="-820" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="k__74r5_tCfTsesa0LqW-166" value="Martin Fowler" style="rounded=0;whiteSpace=wrap;html=1;glass=0;labelBackgroundColor=none;sketch=0;strokeColor=#666666;strokeWidth=1;fillColor=#f5f5f5;fontColor=#333333;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="-820" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="k__74r5_tCfTsesa0LqW-167" value="Refactoring" style="rounded=0;whiteSpace=wrap;html=1;glass=0;labelBackgroundColor=none;sketch=0;strokeColor=#666666;strokeWidth=1;fillColor=#f5f5f5;fontColor=#333333;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="-820" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="k__74r5_tCfTsesa0LqW-168" value="02" style="rounded=0;whiteSpace=wrap;html=1;glass=0;labelBackgroundColor=none;sketch=0;strokeColor=#666666;strokeWidth=1;fillColor=#f5f5f5;fontColor=#333333;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="-770" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="k__74r5_tCfTsesa0LqW-169" value="Martin Fowler" style="rounded=0;whiteSpace=wrap;html=1;glass=0;labelBackgroundColor=none;sketch=0;strokeColor=#666666;strokeWidth=1;fillColor=#f5f5f5;fontColor=#333333;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="-770" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="k__74r5_tCfTsesa0LqW-170" value="P of EAA&lt;br&gt;&lt;span style=&quot;text-align: left;&quot;&gt;Patterns of Enterprise Application Architecture&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;glass=0;labelBackgroundColor=none;sketch=0;strokeColor=#666666;strokeWidth=1;fillColor=#f5f5f5;align=center;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="-770" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="k__74r5_tCfTsesa0LqW-173" value="03" style="rounded=0;whiteSpace=wrap;html=1;glass=0;labelBackgroundColor=none;sketch=0;strokeColor=#666666;strokeWidth=1;fillColor=#f5f5f5;fontColor=#333333;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="-720" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="k__74r5_tCfTsesa0LqW-174" value="Gregor Hohpe" style="rounded=0;whiteSpace=wrap;html=1;glass=0;labelBackgroundColor=none;sketch=0;strokeColor=#666666;strokeWidth=1;fillColor=#f5f5f5;fontColor=#333333;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="-720" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="k__74r5_tCfTsesa0LqW-175" value="Enterprise Integration Patterns" style="rounded=0;whiteSpace=wrap;html=1;glass=0;labelBackgroundColor=none;sketch=0;strokeColor=#666666;strokeWidth=1;fillColor=#f5f5f5;fontColor=#333333;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="-720" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="k__74r5_tCfTsesa0LqW-176" value="03" style="rounded=0;whiteSpace=wrap;html=1;glass=0;labelBackgroundColor=none;sketch=0;strokeColor=#82b366;strokeWidth=1;fillColor=#d5e8d4;align=center;fontColor=#6B9454;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="-640" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="k__74r5_tCfTsesa0LqW-177" value="Eric Evans" style="rounded=0;whiteSpace=wrap;html=1;glass=0;labelBackgroundColor=none;sketch=0;strokeColor=#82b366;strokeWidth=1;fillColor=#d5e8d4;align=center;fontColor=#6B9454;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="-640" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="k__74r5_tCfTsesa0LqW-178" value="Domain Driven Design" style="rounded=0;whiteSpace=wrap;html=1;glass=0;labelBackgroundColor=none;sketch=0;strokeColor=#82b366;strokeWidth=1;fillColor=#d5e8d4;align=center;fontColor=#6B9454;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="-640" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="k__74r5_tCfTsesa0LqW-179" value="13" style="rounded=0;whiteSpace=wrap;html=1;glass=0;labelBackgroundColor=none;sketch=0;strokeColor=#82b366;strokeWidth=1;fillColor=#d5e8d4;align=center;fontColor=#6B9454;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="-590" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="k__74r5_tCfTsesa0LqW-180" value="Vaughn Vernon" style="rounded=0;whiteSpace=wrap;html=1;glass=0;labelBackgroundColor=none;sketch=0;strokeColor=#82b366;strokeWidth=1;fillColor=#d5e8d4;align=center;fontColor=#6B9454;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="-590" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="k__74r5_tCfTsesa0LqW-181" value="Implementing DDD" style="rounded=0;whiteSpace=wrap;html=1;glass=0;labelBackgroundColor=none;sketch=0;strokeColor=#82b366;strokeWidth=1;fillColor=#d5e8d4;align=center;fontColor=#6B9454;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="-590" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="k__74r5_tCfTsesa0LqW-182" value="17" style="rounded=0;whiteSpace=wrap;html=1;glass=0;labelBackgroundColor=none;sketch=0;strokeColor=#82b366;strokeWidth=1;fillColor=#d5e8d4;align=center;fontColor=#6B9454;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="-540" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="k__74r5_tCfTsesa0LqW-183" value="Uncle Bob" style="rounded=0;whiteSpace=wrap;html=1;glass=0;labelBackgroundColor=none;sketch=0;strokeColor=#82b366;strokeWidth=1;fillColor=#d5e8d4;align=center;fontColor=#6B9454;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="-540" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="k__74r5_tCfTsesa0LqW-184" value="Clean Architecture" style="rounded=0;whiteSpace=wrap;html=1;glass=0;labelBackgroundColor=none;sketch=0;strokeColor=#82b366;strokeWidth=1;fillColor=#d5e8d4;align=center;fontColor=#6B9454;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="-540" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="k__74r5_tCfTsesa0LqW-191" value="通过一系列的设计模式或范例来降低一些常见的复杂度" style="text;whiteSpace=wrap;html=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="1680" y="-790" width="310" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="k__74r5_tCfTsesa0LqW-192" value="真正的从业务的角度出发，为全世界绝大部分做纯业务的开发提供了一整套的架构思路。" style="text;whiteSpace=wrap;html=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="1680" y="-585" width="490" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
