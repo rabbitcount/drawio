@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-10T10:40:17.495Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="4E5l8Mt8QilyraWSsg31" version="13.5.8" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-10T10:40:32.137Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="ftzwyHH-usvVmUcLunMb" version="13.5.8" type="github">
   <diagram id="HGR84DPYoryr4UejDbrn" name="Page-1">
     <mxGraphModel dx="2165" dy="5871" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -1634,6 +1634,9 @@
         </mxCell>
         <mxCell id="k__74r5_tCfTsesa0LqW-212" value="评估维度" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#333333;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="3042.5" y="-500" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="k__74r5_tCfTsesa0LqW-214" value="E-R 图并不是数据表结构" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="185" y="-120" width="150" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
