@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-10T07:12:42.132Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="Hu6K-oAbOr4Ej0c4LjaT" version="13.5.8" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-10T07:19:27.447Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="Y3eyrHLLBi42QZDqqVu9" version="13.5.8" type="github">
   <diagram id="HGR84DPYoryr4UejDbrn" name="Page-1">
     <mxGraphModel dx="2165" dy="5871" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -1496,6 +1496,15 @@
         </mxCell>
         <mxCell id="k__74r5_tCfTsesa0LqW-156" value="&lt;p&gt;&lt;font color=&quot;#6b9454&quot;&gt;&lt;b&gt;Data Object （DO、数据对象）- 需要序列化&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;span style=&quot;color: rgb(107 , 148 , 84)&quot;&gt;实际上是我们在日常工作中最常见的数据模型。但是在DDD的规范里，DO应该仅仅作为数据库物理表格的映射，不能参与到业务逻辑中。为了简单明了，DO的字段类型和名称应该和数据库物理表格的字段类型和名称一一对应，这样我们不需要去跑到数据库上去查一个字段的类型和名称。（当然，实际上也没必要一摸一样，只要你在Mapper那一层做到字段映射）&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;font color=&quot;#6b9454&quot;&gt;&lt;b&gt;Entity（实体对象）- 不需要序列化&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;span style=&quot;color: rgb(107 , 148 , 84)&quot;&gt;实体对象是我们正常业务应该用的业务模型，它的字段和方法应该和业务语言保持一致，和持久化方式无关。也就是说，Entity和DO很可能有着完全不一样的字段命名和字段类型，甚至嵌套关系。Entity的生命周期应该仅存在于内存中，不需要可序列化和可持久化。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;font color=&quot;#6b9454&quot;&gt;&lt;strong&gt;DTO（传输对象）- 不需要序列化&lt;br&gt;&lt;/strong&gt;&lt;span&gt;主要作为Application层的入参和出参，比如CQRS里的Command、Query、Event，以及Request、Response等都属于DTO的范畴。DTO的价值在于适配不同的业务场景的入参和出参，避免让业务对象变成一个万能大对象。&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;" style="text;whiteSpace=wrap;html=1;fontColor=#9E8640;" vertex="1" parent="1">
           <mxGeometry x="1890" y="350" width="550" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="k__74r5_tCfTsesa0LqW-158" value="Transaction Script 版本" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#62874D;" vertex="1" parent="1">
+          <mxGeometry x="455" y="720" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="k__74r5_tCfTsesa0LqW-159" value="Domain 版本" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#62874D;" vertex="1" parent="1">
+          <mxGeometry x="990" y="780" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="k__74r5_tCfTsesa0LqW-160" value="Repository代码规范&lt;br&gt;&lt;br&gt;&lt;div&gt;&lt;div&gt;&lt;p&gt;&lt;strong&gt;1、接口名称不应该使用底层实现的语法&lt;/strong&gt;：我们常见的insert、select、update、delete都属于SQL语法，使用这几个词相当于和DB底层实现做了绑定。相反，我们应该把 Repository 当成一个中性的类 似Collection 的接口，使用语法如 find、save、remove。在这里特别需要指出的是区分 insert/add 和 update 本身也是一种和底层强绑定的逻辑，一些储存如缓存实际上不存在insert和update的差异，在这个 case 里，使用中性的 save 接口，然后在具体实现上根据情况调用 DAO 的 insert 或 update 接口。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;2、出参入参不应该使用底层数据格式&lt;/strong&gt;：需要记得的是 Repository 操作的是  Entity 对象（实际上应该是Aggregate Root），而不应该直接操作底层的 DO 。更近一步，Repository 接口实际上应该存在于Domain层，根本看不到 DO 的实现。这个也是为了避免底层实现逻辑渗透到业务代码中的强保障。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;3、应该避免所谓的“通用”Repository模式&lt;/strong&gt;：很多 ORM 框架都提供一个“通用”的Repository接口，然后框架通过注解自动实现接口，比较典型的例子是Spring Data、Entity Framework等，这种框架的好处是在简单场景下很容易通过配置实现，但是坏处是基本上无扩展的可能性（比如加定制缓存逻辑），在未来有可能还是会被推翻重做。&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontColor=#62874D;" vertex="1" parent="1">
+          <mxGeometry x="200" y="-760" width="910" height="190" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
