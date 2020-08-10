@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-10T09:09:11.994Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="HTtnu6iKkCCVWMsUR49s" version="13.5.8" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-10T09:09:31.796Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="U9fu6_aZcDPU5rjLD-Cf" version="13.5.8" type="github">
   <diagram id="HGR84DPYoryr4UejDbrn" name="Page-1">
     <mxGraphModel dx="2165" dy="5871" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -1623,8 +1623,8 @@
         <mxCell id="k__74r5_tCfTsesa0LqW-208" value="Encapsulate Multi-Object Behavior&lt;br&gt;封装 多对象 行为" style="rounded=0;whiteSpace=wrap;html=1;glass=0;labelBackgroundColor=none;sketch=1;strokeWidth=1;align=center;shadow=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="2720" y="-330.75" width="240" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="k__74r5_tCfTsesa0LqW-209" value="跨多个DP或Entity的行为" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#333333;" vertex="1" parent="1">
-          <mxGeometry x="2773" y="-290.75" width="150" height="20" as="geometry" />
+        <mxCell id="k__74r5_tCfTsesa0LqW-209" value="跨多个DP或Entity的行为（如ExchangeRate）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="2718" y="-290.75" width="260" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
