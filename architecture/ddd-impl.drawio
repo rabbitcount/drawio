@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-13T11:37:57.929Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36" etag="02-hZuo1Oq_eGSNqkUuU" version="13.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-13T11:56:47.483Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36" etag="vW3d-F8n2LRrEaczlJTI" version="13.6.2" type="github">
   <diagram id="HGR84DPYoryr4UejDbrn" name="Page-1">
     <mxGraphModel dx="2706" dy="6168" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -989,8 +989,8 @@
         <mxCell id="Rx8_rTDr1uG7aBfj7MTM-263" value="Repository 和 Entity" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#6C8EBF;" parent="1" vertex="1">
           <mxGeometry x="80" y="1160" width="120" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Rx8_rTDr1uG7aBfj7MTM-264" value="抽象第三方服务" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#6C8EBF;" parent="1" vertex="1">
-          <mxGeometry x="880" y="1160" width="100" height="20" as="geometry" />
+        <mxCell id="Rx8_rTDr1uG7aBfj7MTM-264" value="抽象第三方服务&lt;br&gt;ACL" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#6C8EBF;" parent="1" vertex="1">
+          <mxGeometry x="880" y="1155" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Rx8_rTDr1uG7aBfj7MTM-265" value="抽象中间件" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#6C8EBF;" parent="1" vertex="1">
           <mxGeometry x="80" y="1680" width="80" height="20" as="geometry" />
@@ -1637,6 +1637,15 @@
         </mxCell>
         <mxCell id="k__74r5_tCfTsesa0LqW-214" value="E-R 图并不是数据表结构" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#333333;" parent="1" vertex="1">
           <mxGeometry x="185" y="-120" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ANjd1HlKOQPKv-CBesAy-1" value="？？？为什么增加口手续费逻辑时，不适合放在TransferService中&lt;br&gt;？？？ 为什么也不适合放在Entity 和 Domain Primitive中" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="1645" y="1700" width="360" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ANjd1HlKOQPKv-CBesAy-2" value="&lt;span style=&quot;color: rgb(36 , 41 , 46) ; font-family: , , &amp;#34;segoe ui&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; font-size: 14px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;数据存储和业务逻辑完全分隔。&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="1770" y="1770" width="210" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ANjd1HlKOQPKv-CBesAy-3" value="&lt;ul style=&quot;margin: 0px 0px 16px ; padding: 0px 0px 0px 2em ; box-sizing: border-box ; color: rgb(36 , 41 , 46) ; font-family: , , &amp;quot;segoe ui&amp;quot; , &amp;quot;helvetica&amp;quot; , &amp;quot;arial&amp;quot; , sans-serif ; font-size: 16px ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;li style=&quot;margin: 0px ; padding: 0px ; box-sizing: border-box ; list-style: inherit ; font-size: 14px ; line-height: 26px&quot;&gt;业务逻辑清晰，数据存储和业务逻辑完全分隔。&lt;/li&gt;&lt;li style=&quot;margin: 0.25em 0px 0px ; padding: 0px ; box-sizing: border-box ; list-style: inherit ; font-size: 14px ; line-height: 26px&quot;&gt;Entity、Domain Primitive、Domain Service都是独立的对象，没有任何外部依赖，但是却包含了所有核心业务逻辑，可以单独完整测试。&lt;/li&gt;&lt;li style=&quot;margin: 0.25em 0px 0px ; padding: 0px ; box-sizing: border-box ; list-style: inherit ; font-size: 14px ; line-height: 26px&quot;&gt;原有的TransferService不再包括任何计算逻辑，仅仅作为组件编排，所有逻辑均delegate到其他组件。这种仅包含Orchestration（编排）的服务叫做Application Service（应用服务）。&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="1678" y="1840" width="1170" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
