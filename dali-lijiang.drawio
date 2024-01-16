@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-16T05:23:37.248Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="Vdxs8XXlTyKvPQU0hdNl" version="22.1.18" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-16T05:26:06.227Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="xKrk24TPVYZED4-wEFfj" version="22.1.18" type="github">
   <diagram name="第 1 页" id="rRuHSntvBdOZGcXTq8w7">
     <mxGraphModel dx="1242" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -261,7 +261,7 @@
         </mxCell>
         <mxCell id="2GG4-1aaM5nx4AEca9Iq-60" value="3.5 小时 到酒店" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;fontColor=#000000;" vertex="1" connectable="0" parent="2GG4-1aaM5nx4AEca9Iq-59">
           <mxGeometry x="-0.0308" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint y="-20" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="2GG4-1aaM5nx4AEca9Iq-61" value="泸沽湖" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;fontSize=14;strokeColor=#d6b656;" vertex="1" parent="1">
@@ -286,7 +286,15 @@
         </mxCell>
         <mxCell id="2GG4-1aaM5nx4AEca9Iq-66" value="1.6 小时到 大理双廊" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;fontColor=#000000;" vertex="1" connectable="0" parent="2GG4-1aaM5nx4AEca9Iq-65">
           <mxGeometry x="0.0154" y="3" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2GG4-1aaM5nx4AEca9Iq-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="2GG4-1aaM5nx4AEca9Iq-67" target="2GG4-1aaM5nx4AEca9Iq-83">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2GG4-1aaM5nx4AEca9Iq-86" value="当日往返" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;" vertex="1" connectable="0" parent="2GG4-1aaM5nx4AEca9Iq-84">
+          <mxGeometry x="0.08" y="7" relative="1" as="geometry">
+            <mxPoint y="19" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="2GG4-1aaM5nx4AEca9Iq-67" value="丽江" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;fontSize=14;strokeColor=#d6b656;" vertex="1" parent="1">
@@ -325,19 +333,22 @@
           <mxGeometry x="660" y="160" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="2GG4-1aaM5nx4AEca9Iq-78" value="泸沽湖匠庐·悠蓝" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="840" y="220" width="120" height="20" as="geometry" />
+          <mxGeometry x="840" y="90" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="2GG4-1aaM5nx4AEca9Iq-79" value="丽江金茂凯悦臻选酒店" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="840" y="460" width="170" height="20" as="geometry" />
+          <mxGeometry x="840" y="330" width="170" height="20" as="geometry" />
         </mxCell>
         <mxCell id="2GG4-1aaM5nx4AEca9Iq-80" value="大理实力希尔顿酒店" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="840" y="700" width="150" height="20" as="geometry" />
+          <mxGeometry x="840" y="570" width="150" height="20" as="geometry" />
         </mxCell>
         <mxCell id="2GG4-1aaM5nx4AEca9Iq-81" value="20日首都机场T2&lt;br&gt;国航：CA1441&lt;br&gt;起飞：06:20&lt;br&gt;到达：10:20" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=15;spacingTop=0;labelBorderColor=none;" vertex="1" parent="1">
           <mxGeometry x="700" y="30" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="2GG4-1aaM5nx4AEca9Iq-82" value="29日首都机场T2&lt;br&gt;国航：CA9614&lt;br&gt;起飞：12:10&lt;br&gt;到达：16:00" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=15;fontColor=#000000;spacingTop=0;" vertex="1" parent="1">
           <mxGeometry x="680" y="378" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2GG4-1aaM5nx4AEca9Iq-83" value="香格里拉" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;fontSize=14;strokeColor=#d6b656;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="458" width="80" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
