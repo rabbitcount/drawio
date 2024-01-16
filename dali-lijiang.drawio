@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-16T05:31:48.758Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="Y-Vy5ja5j0od0C0iO349" version="22.1.18" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-16T12:10:18.427Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="srXqZipZ_ToFIHFjWbdd" version="22.1.18" type="github">
   <diagram name="第 1 页" id="rRuHSntvBdOZGcXTq8w7">
     <mxGraphModel dx="1242" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -353,6 +353,9 @@
         </mxCell>
         <mxCell id="2GG4-1aaM5nx4AEca9Iq-87" value="看一眼大理，不进城" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="640" y="200" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2GG4-1aaM5nx4AEca9Iq-89" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.4_point_star_2;dx=0.8;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="590" y="71" width="30" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
