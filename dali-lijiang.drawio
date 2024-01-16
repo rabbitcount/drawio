@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-16T12:11:37.944Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="te4G9uGJlU4zmngRIMiC" version="22.1.18" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-16T12:12:04.927Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="tQmueasCyJY--xlhdWCg" version="22.1.18" type="github">
   <diagram name="第 1 页" id="rRuHSntvBdOZGcXTq8w7">
     <mxGraphModel dx="1242" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -244,19 +244,19 @@
           <mxGeometry x="210" y="135" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2GG4-1aaM5nx4AEca9Iq-56" value="20日 下午" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;fontSize=14;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="960" y="160" width="80" height="40" as="geometry" />
+          <mxGeometry x="1000" y="160" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="2GG4-1aaM5nx4AEca9Iq-57" value="22日 上午" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;fontSize=14;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="960" y="200" width="80" height="40" as="geometry" />
+          <mxGeometry x="1000" y="200" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="2GG4-1aaM5nx4AEca9Iq-58" value="第 1 站" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;fontSize=14;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="880" y="160" width="80" height="40" as="geometry" />
+          <mxGeometry x="920" y="160" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="2GG4-1aaM5nx4AEca9Iq-59" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="2GG4-1aaM5nx4AEca9Iq-61" target="2GG4-1aaM5nx4AEca9Iq-67">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="800" y="230" />
-              <mxPoint x="800" y="450" />
+              <mxPoint x="840" y="230" />
+              <mxPoint x="840" y="450" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -266,22 +266,22 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="2GG4-1aaM5nx4AEca9Iq-61" value="泸沽湖" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;fontSize=14;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="880" y="200" width="80" height="40" as="geometry" />
+          <mxGeometry x="920" y="200" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="2GG4-1aaM5nx4AEca9Iq-62" value="22日 下午" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;fontSize=14;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="960" y="400" width="80" height="40" as="geometry" />
+          <mxGeometry x="1000" y="400" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="2GG4-1aaM5nx4AEca9Iq-63" value="26日 上午" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;fontSize=14;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="960" y="440" width="80" height="40" as="geometry" />
+          <mxGeometry x="1000" y="440" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="2GG4-1aaM5nx4AEca9Iq-64" value="第 2 站" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;fontSize=14;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="880" y="400" width="80" height="40" as="geometry" />
+          <mxGeometry x="920" y="400" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="2GG4-1aaM5nx4AEca9Iq-65" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="2GG4-1aaM5nx4AEca9Iq-67" target="2GG4-1aaM5nx4AEca9Iq-72">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="800" y="470" />
-              <mxPoint x="800" y="690" />
+              <mxPoint x="840" y="470" />
+              <mxPoint x="840" y="690" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -299,28 +299,28 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="2GG4-1aaM5nx4AEca9Iq-67" value="丽江" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;fontSize=14;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="880" y="440" width="80" height="40" as="geometry" />
+          <mxGeometry x="920" y="440" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="2GG4-1aaM5nx4AEca9Iq-68" value="26日 下午" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;fontSize=14;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="960" y="640" width="80" height="40" as="geometry" />
+          <mxGeometry x="1000" y="640" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="2GG4-1aaM5nx4AEca9Iq-69" value="29日 上午" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;fontSize=14;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="960" y="680" width="80" height="40" as="geometry" />
+          <mxGeometry x="1000" y="680" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="2GG4-1aaM5nx4AEca9Iq-70" value="第 3 站" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;fontSize=14;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="880" y="640" width="80" height="40" as="geometry" />
+          <mxGeometry x="920" y="640" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="2GG4-1aaM5nx4AEca9Iq-71" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="2GG4-1aaM5nx4AEca9Iq-72" target="2GG4-1aaM5nx4AEca9Iq-74">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="2GG4-1aaM5nx4AEca9Iq-72" value="大理" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;fontSize=14;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="880" y="680" width="80" height="40" as="geometry" />
+          <mxGeometry x="920" y="680" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="2GG4-1aaM5nx4AEca9Iq-73" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="2GG4-1aaM5nx4AEca9Iq-74" target="2GG4-1aaM5nx4AEca9Iq-77">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="2GG4-1aaM5nx4AEca9Iq-74" value="北京" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;fontSize=14;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="600" y="120" width="80" height="40" as="geometry" />
+          <mxGeometry x="640" y="120" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="2GG4-1aaM5nx4AEca9Iq-75" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="2GG4-1aaM5nx4AEca9Iq-77" target="2GG4-1aaM5nx4AEca9Iq-61">
           <mxGeometry relative="1" as="geometry" />
@@ -331,31 +331,31 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="2GG4-1aaM5nx4AEca9Iq-77" value="大理" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;fontSize=14;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="660" y="200" width="80" height="40" as="geometry" />
+          <mxGeometry x="700" y="200" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="2GG4-1aaM5nx4AEca9Iq-78" value="泸沽湖匠庐·悠蓝" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="880" y="130" width="120" height="20" as="geometry" />
+          <mxGeometry x="920" y="130" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="2GG4-1aaM5nx4AEca9Iq-79" value="丽江金茂凯悦臻选酒店" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="880" y="370" width="170" height="20" as="geometry" />
+          <mxGeometry x="920" y="370" width="170" height="20" as="geometry" />
         </mxCell>
         <mxCell id="2GG4-1aaM5nx4AEca9Iq-80" value="大理实力希尔顿酒店" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="880" y="610" width="150" height="20" as="geometry" />
+          <mxGeometry x="920" y="610" width="150" height="20" as="geometry" />
         </mxCell>
         <mxCell id="2GG4-1aaM5nx4AEca9Iq-81" value="20日首都机场T2&lt;br&gt;国航：CA1441&lt;br&gt;起飞：06:20&lt;br&gt;到达：10:20" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=15;spacingTop=0;labelBorderColor=none;" vertex="1" parent="1">
-          <mxGeometry x="700" y="60" width="120" height="80" as="geometry" />
+          <mxGeometry x="740" y="60" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="2GG4-1aaM5nx4AEca9Iq-82" value="29日首都机场T2&lt;br&gt;国航：CA9614&lt;br&gt;起飞：12:10&lt;br&gt;到达：16:00" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=15;fontColor=#000000;spacingTop=0;" vertex="1" parent="1">
-          <mxGeometry x="670" y="385" width="120" height="80" as="geometry" />
+          <mxGeometry x="710" y="385" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="2GG4-1aaM5nx4AEca9Iq-83" value="香格里拉" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;fontSize=14;strokeColor=#d6b656;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="1080" y="498" width="80" height="40" as="geometry" />
+          <mxGeometry x="1080" y="500" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="2GG4-1aaM5nx4AEca9Iq-87" value="看一眼大理，不进城" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="640" y="240" width="160" height="30" as="geometry" />
+          <mxGeometry x="680" y="240" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2GG4-1aaM5nx4AEca9Iq-89" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.4_point_star_2;dx=0.8;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="590" y="111" width="30" height="30" as="geometry" />
+          <mxGeometry x="630" y="111" width="30" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
