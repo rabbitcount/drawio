@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-16T12:29:57.030Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="_NizBJGXPKGZG3gqlg0d" version="22.1.18" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-16T12:34:27.088Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="Sa7TTqsFmVMR8QGsDMIN" version="22.1.18" type="github">
   <diagram name="第 1 页" id="rRuHSntvBdOZGcXTq8w7">
     <mxGraphModel dx="1242" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -51,7 +51,7 @@
         <mxCell id="2GG4-1aaM5nx4AEca9Iq-7" value="丽江&lt;br&gt;2416m" style="rounded=1;whiteSpace=wrap;html=1;arcSize=48;fontSize=15;fontStyle=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="200" y="320" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="2GG4-1aaM5nx4AEca9Iq-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;curved=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;endArrow=none;endFill=0;" edge="1" parent="1" source="2GG4-1aaM5nx4AEca9Iq-9" target="2GG4-1aaM5nx4AEca9Iq-31">
+        <mxCell id="2GG4-1aaM5nx4AEca9Iq-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;curved=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;endArrow=none;endFill=0;" edge="1" parent="1" source="2GG4-1aaM5nx4AEca9Iq-9" target="2GG4-1aaM5nx4AEca9Iq-31">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="2GG4-1aaM5nx4AEca9Iq-9" value="香格里拉&lt;br&gt;3300m" style="rounded=1;whiteSpace=wrap;html=1;arcSize=48;fontSize=15;fontStyle=0;fillColor=#fff2cc;strokeColor=#d6b656;dashed=1;" vertex="1" parent="1">
@@ -142,13 +142,13 @@
           <mxGeometry x="560" y="690" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2GG4-1aaM5nx4AEca9Iq-31" value="噶丹松&lt;br style=&quot;font-size: 13px;&quot;&gt;赞林寺&lt;br style=&quot;font-size: 13px;&quot;&gt;3380m" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="120" y="60" width="60" height="60" as="geometry" />
+          <mxGeometry x="30" y="10" width="60" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="2GG4-1aaM5nx4AEca9Iq-32" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=none;endFill=0;" edge="1" parent="1" source="2GG4-1aaM5nx4AEca9Iq-33" target="2GG4-1aaM5nx4AEca9Iq-9">
+        <mxCell id="2GG4-1aaM5nx4AEca9Iq-32" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=none;endFill=0;entryX=0.308;entryY=1.017;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="2GG4-1aaM5nx4AEca9Iq-33" target="2GG4-1aaM5nx4AEca9Iq-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="2GG4-1aaM5nx4AEca9Iq-33" value="独立宗&lt;br style=&quot;font-size: 15px;&quot;&gt;古城" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="30" y="30" width="60" height="60" as="geometry" />
+          <mxGeometry y="210" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="2GG4-1aaM5nx4AEca9Iq-34" value="城内" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="10" y="90" width="40" height="20" as="geometry" />
@@ -356,6 +356,12 @@
         </mxCell>
         <mxCell id="2GG4-1aaM5nx4AEca9Iq-89" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.4_point_star_2;dx=0.8;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="630" y="111" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2GG4-1aaM5nx4AEca9Iq-90" value="&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;普达措&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;国家公园&lt;/font&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="120" y="50" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2GG4-1aaM5nx4AEca9Iq-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;dashed=1;exitX=0.667;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="2GG4-1aaM5nx4AEca9Iq-9" target="2GG4-1aaM5nx4AEca9Iq-90">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
